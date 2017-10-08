@@ -33,6 +33,10 @@ android {
             res.srcDirs = ['res']
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 task javadoc(type: Javadoc) {
